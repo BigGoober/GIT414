@@ -53,6 +53,16 @@ table {
 /* GLOBAL STYLES */
 body {
     display: grid;
+    grid-template-columns: 1fr;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY (medium)*/
+@media screeen and (min-width: 941px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* MEDIA QUERY (large)*/
+
+/* MEDIA QUERY (xl)*/
