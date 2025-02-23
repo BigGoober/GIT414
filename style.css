@@ -56,13 +56,45 @@ body {
     grid-template-columns: 1fr;
 }
 
+header {
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+nav {
+    text-align: center;
+}
+
 /* MEDIA QUERY (medium)*/
-@media screeen and (min-width: 941px) {
-    body {
+@media screen and (min-width: 600px) {
+    main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /* MEDIA QUERY (large)*/
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
 /* MEDIA QUERY (xl)*/
+@media screen and (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
